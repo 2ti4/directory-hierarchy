@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Flask/Env
+venv/
+.env
+*.env
+
+# Logs and outputs
+logs/*
+output/*
+*.log
+*.csv
+*.json  # Если это временные файлы, как hierarchy_results_*.json
+
+# Secrets
+credentials/*.json  # Игнорируем реальные credentials
+
+# Misc
+.DS_Store
+Thumbs.db
+
+credentials/*.json
+.idea
+cache
